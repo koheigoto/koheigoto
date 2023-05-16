@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=New+Tegomin&display=swap');
+
+$maincolor: black;
+
+body {
+    background-color: $maincolor;
+}
+
+#mainnav {
+    margin-top: 10%;
+}
+
+ul {
+    list-style:none;
+    display: inline-flex;
+    text-align: center;
+}
+li {
+    text-align: center;
+    display: inline;
+}
+.panel {
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    background-color: $maincolor;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+a{
+    color: white;
+}
+
+.intro {
+    width: 100%;
+    // margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        text-align: center;
+        display: block;
+        color: white;
+        font-family: 'New Tegomin', serif;
+        font-size: medium;
+        text-align: center;
+    }
+}
+
+#gallery li{
+	float: left;
+	width: calc(100%/3);
+	line-height: 0;
+}
+
+#gallery img{
+	width: 100%;
+	height: auto;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=New+Tegomin&display=swap');
+
+$maincolor: black;
+
+body {
+    background-color: $maincolor;
+}
+
+footer {
+    background-color: $maincolor;
+    a {
+        color: white;
+        font-family: 'New Tegomin', serif;
+    }
+}
+
+.footer {
+    width: 100%;
+    // margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        text-align: center;
+        display: block;
+        color: white;
+        font-family: 'New Tegomin', serif;
+        font-size: medium;
+        text-align: center;
+    }
+}
+
+.email {
+    width: 100%;
+    text-align: center;
+}
+
+.insta {
+    width: 100%;
+}

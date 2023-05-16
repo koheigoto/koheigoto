@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=New+Tegomin&display=swap');
+
+$maincolor: black;
+
+body {
+    background-color: $maincolor;
+}
+
+router-outlet {
+    margin-top: 40%;
+}
+
+ul {
+    list-style:none;
+    display: inline-flex;
+    text-align: center;
+}
+li {
+    text-align: center;
+    display: inline;
+}
+.panel {
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    background-color: $maincolor;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+a{
+    color: white;
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+$maincolor: black;
+
+
+.consept{
+    margin-top: 10%;
+    background-color: $maincolor;
+    text-align: center;
+    p{
+        display: block;
+        color: white;
+        font-family: 'Zen Antique Soft', serif;
+        font-size: x-large;
+        text-align: center;
+        // vertical-align: middle;
+    }
+}
+
+.explanation{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $maincolor;
+    text-align: center;
+    display: flex;
+}
+
+.consept1 {
+    width: 100%;
+    // margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        text-align: center;
+        display: block;
+        color: white;
+        font-family: 'New Tegomin', serif;
+        font-size: medium;
+        text-align: center;
+    }
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+}
+
+.stability{
+    background-color: $maincolor;
+    text-align: center;
+    // margin-left: 10%;
+    p{
+        display: block;
+        color: white;
+        font-family: 'New Tegomin', serif;
+        font-size: large;
+        text-align: center;
+    }
+}
+
+    img{
+        // position: absolute;
+        // left: 50%;
+        max-width: 100%;
+        width: 70%;
+        height: 70%;
+        // margin-left: -640px;
+    }

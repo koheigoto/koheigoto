@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  constructor() {}
+
+  // メニューバー変数
+  menus = ["top","consept","portfolio","movie","contact"];
+
   title = 'style';
 }

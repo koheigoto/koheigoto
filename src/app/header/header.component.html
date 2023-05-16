@@ -1,0 +1,22 @@
+<mat-toolbar>
+    <header>
+        <div>
+            <!-- <h1><img src="images/logo.png" width="142" height="80" alt="logo"></h1> -->
+            <nav id="mainnav">
+                <!-- <p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p> -->
+                <div class="panel">
+                    <ul *ngFor="let menu of menus">
+                        <li *ngIf="menu == 'inside';else menubar">
+                            <a href="{{menu}}">Inside the brain</a>
+                        </li>
+                        <ng-template #menubar>
+                            <li>
+                                <a href="{{menu}}">{{menu}}</a>
+                            </li>
+                        </ng-template>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+</mat-toolbar>
